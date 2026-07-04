@@ -1,0 +1,29 @@
+{
+  "name": "computemateai",
+  "version": "1.0.0",
+  "description": "ComputeMate AI - AI-powered learning assistant for Computing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/app.js",
+    "dev": "nodemon server/app.js"
+  },
+  "keywords": [],
+  "author": "Festus Boamah",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "bootstrap": "^5.3.8",
+    "bootstrap-icons": "^1.13.1",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "openai": "^6.45.0",
+    "react-router-dom": "^7.18.1",
+    "sqlite3": "^6.0.1"
+  }
+}
