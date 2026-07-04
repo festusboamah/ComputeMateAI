@@ -32,10 +32,28 @@ export default function LoginForm() {
                 placeholder="Enter your password"
               />
             </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
+            
+            <div className="form-check mb-3">
+                <input
+                className="form-check-input"
+                type="checkbox"
+                id="remember"
+                />
+                <label className="form-check-label" htmlFor="remember">
+                    Remember me
+                    </label>
+                    </div>
+                    <button className="btn btn-primary w-100 mb-3">
+                         Login
+                         </button>
+                         <p className="text-center">
+                            <a href="#" className="text-decoration-none">
+                                Forgot Password?
+                                </a>
+                                </p>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                );
+                            }
