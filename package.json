@@ -23,7 +23,6 @@
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.3",
     "openai": "^6.45.0",
-    "react-router-dom": "^7.18.1",
     "sqlite3": "^6.0.1"
   }
 }
